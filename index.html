@@ -1,42 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Zone Residency | Luxury Living</title>
-    <meta name="description" content="Experience premium real estate crafted for modern living. Redefining elegance and architecture.">
-    
-    <!-- Premium Fonts: Elegant Serif & Sleek Sans -->
+    <title>Blue Zone Residency Noida | 2 &amp; 3 BHK Luxury Flats from ₹60 Lakh</title>
+    <meta name="description" content="Blue Zone Residency, Noida: 2 BHK and 3 BHK luxury residences with basement parking, 8-person lift, steam bath and terrace garden. Starting from ₹60 Lakh. Book a site visit.">
+    <meta name="theme-color" content="#050b24">
+    <link rel="canonical" href="https://bzr.co.in/">
+
+    <!-- Open Graph / WhatsApp / Twitter preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Blue Zone Residency">
+    <meta property="og:title" content="Blue Zone Residency | Luxury 2 &amp; 3 BHK in Noida">
+    <meta property="og:description" content="Premium residences with basement parking, 8-person lift, steam bath and terrace garden. Starting from ₹60 Lakh.">
+    <meta property="og:url" content="https://bzr.co.in/">
+    <meta property="og:image" content="https://bzr.co.in/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blue Zone Residency | Luxury 2 &amp; 3 BHK in Noida">
+    <meta name="twitter:description" content="Premium residences starting from ₹60 Lakh. Book a site visit today.">
+    <meta name="twitter:image" content="https://bzr.co.in/og-image.jpg">
+
+    <!-- Icons -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Core Engine Scripts for Interactive Matrix Background -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ApartmentComplex",
+          "name": "Blue Zone Residency",
+          "url": "https://bzr.co.in/",
+          "image": "https://bzr.co.in/og-image.jpg",
+          "description": "2 BHK and 3 BHK luxury residences in Noida with basement parking, 8-person lift, steam bath and terrace garden.",
+          "telephone": "+919650404888",
+          "address": { "@type": "PostalAddress", "addressLocality": "Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" },
+          "numberOfBedrooms": [2, 3],
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Basement parking", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "8-person lift", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Steam bath", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Terrace garden", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Fire fighting system", "value": true }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/perfectengineergroup/",
+            "https://youtube.com/@bluezoneresidency",
+            "https://www.facebook.com/profile.php?id=61571825708251"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "What materials and fittings are used?", "acceptedAnswer": { "@type": "Answer", "text": "Residences use vitrified tile flooring, granite stone kitchen counters with stainless steel sinks, uPVC window frames with toughened glass and putty with OBD finished walls. The 3 BHK residences feature bathroom fittings from Jaguar, Astral and Hindware." } },
+            { "@type": "Question", "name": "Is basement parking included?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Basement car parking is part of the building layout for residents." } },
+            { "@type": "Question", "name": "What are the configurations and starting prices?", "acceptedAnswer": { "@type": "Answer", "text": "2 BHK residences (1081 or 1169 sq ft) start from ₹60 Lakh and 3 BHK residences (2250 sq ft) start from ₹1.25 Crore. Prices are indicative; please contact us for current pricing and availability." } },
+            { "@type": "Question", "name": "How well connected is the location?", "acceptedAnswer": { "@type": "Answer", "text": "The City Center, Metro Station, hospitals, an international school and the Interstate Bus Stand are about 5 minutes away. Delhi is about 15 minutes away and the upcoming Jewar Airport is about 40 km away." } },
+            { "@type": "Question", "name": "How do I book a site visit?", "acceptedAnswer": { "@type": "Answer", "text": "Fill in the enquiry form on this page, message us on WhatsApp or call +91 96504 04888 and our team will confirm a convenient slot." } }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
+    <a class="skip-link" href="#about">Skip to content</a>
 
     <!-- SCROLL PROGRESS BAR -->
-    <div class="scroll-progress"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
 
-    <!-- BACKGROUND VECTOR LINE CANVAS MATRIX -->
-    <canvas id="webgl-blueprint-canvas"></canvas>
+    <!-- BACKGROUND CANVAS -->
+    <canvas id="webgl-blueprint-canvas" aria-hidden="true"></canvas>
 
-    <!-- ANCHORED MOUSE CURSOR -->
-    <div class="luxury-cursor"></div>
-    <div class="luxury-cursor-dot"></div>
+    <!-- CURSOR (desktop mouse only; enabled from main.js) -->
+    <div class="luxury-cursor" aria-hidden="true"></div>
+    <div class="luxury-cursor-dot" aria-hidden="true"></div>
 
-    <!-- 100vh CINEMATIC BRAND REVEAL INTRO -->
-    <section class="brand-reveal-viewport">
-        <div class="reveal-bg-effects">
+    <!-- BRAND INTRO -->
+    <header class="brand-reveal-viewport">
+        <div class="reveal-bg-effects" aria-hidden="true">
             <div class="glowing-blur-blob blob-1"></div>
             <div class="glowing-blur-blob blob-2"></div>
             <div class="glowing-blur-blob blob-3"></div>
-            <div class="ambient-particles" id="particles"></div>
         </div>
         <div class="reveal-content">
             <h1 class="brand-launch-title">
@@ -45,65 +104,75 @@
             <p class="brand-launch-subtitle">Where Elegance Meets Everyday Comfort</p>
             <div class="premium-divider-line"></div>
         </div>
-    </section>
+        <a class="scroll-hint" href="#home" aria-label="Scroll to content"><i class="fa-solid fa-chevron-down"></i></a>
+    </header>
 
-    <!-- STICKY GLASSMORPHISM NAVBAR -->
-    <nav class="luxury-navbar visible-panel">
+    <!-- NAVBAR -->
+    <nav class="luxury-navbar" aria-label="Main navigation">
         <div class="nav-container">
-            <div class="nav-brand-group">
-                <a href="#" class="nav-brand">Blue Zone Residency</a>
-            </div>
-            <ul class="nav-links">
+            <a href="#home" class="nav-brand">Blue Zone Residency</a>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#about">About</a></li>
                 <li><a href="#amenities">Amenities</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#advantages">Location</a></li>
                 <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#enquire">Contact</a></li>
             </ul>
-            <a href="#enquire" class="nav-cta">ENQUIRE <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#enquire" class="nav-cta">ENQUIRE <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
+    <main>
+    <!-- HERO -->
     <section class="main-hero" id="home">
         <div class="hero-container">
             <div class="hero-text-block">
                 <span class="hero-tagline">Redefining Architectural Perfection</span>
                 <h2 class="hero-main-title">Luxury Living<br>Designed For<br>Modern Families.</h2>
-                <p class="hero-description">An architectural masterpiece constructed with premium, high-quality materials. Uncompromising design starting from <strong style="color: #38BDF8;">₹60 Lacs*</strong>.</p>
+                <p class="hero-description">Premium 2 &amp; 3 BHK residences in Noida, built with high-quality materials and thoughtful design. Starting from <strong class="accent-text">₹60 Lakh*</strong></p>
                 <div class="hero-cta-group">
-                    <a href="#enquire" class="btn-premium btn-solid">Book Site Visit <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="#enquire" class="btn-premium btn-outline">Download Brochure <i class="fa-solid fa-download"></i></a>
+                    <a href="#enquire" class="btn-premium btn-solid">Book Site Visit <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/919650404888?text=Hi%2C%20please%20share%20the%20brochure%20and%20details%20for%20Blue%20Zone%20Residency." target="_blank" rel="noopener noreferrer" class="btn-premium btn-outline">Get Brochure on WhatsApp <i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
+                <p class="price-note">*Starting price is indicative and subject to change.</p>
             </div>
             <div class="hero-visual-block">
                 <div class="luxury-image-frame">
                     <div class="glass-overlay-badge">
-                        <span class="badge-number">₹60L</span>
-                        <span class="badge-text">Starting Only</span>
+                        <span class="badge-number">₹60L*</span>
+                        <span class="badge-text">Starting from</span>
                     </div>
-                    <img src="hero-building.jpeg" alt="Blue Zone Residency" class="hero-building-img">
+                    <img src="hero-building.webp"
+                         srcset="hero-building-640.webp 640w, hero-building.webp 1087w"
+                         sizes="(max-width: 1024px) 90vw, 42vw"
+                         width="1087" height="1447"
+                         alt="Facade of Blue Zone Residency with jaali panels and glass balconies"
+                         class="hero-building-img" decoding="async">
                     <div class="reflection-glow"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT PROJECT -->
+    <!-- ABOUT -->
     <section class="premium-section" id="about">
         <div class="section-container grid-2">
-            <div class="about-composition">
+            <div class="about-composition reveal">
                 <div class="composition-offset-card">
-                    <h3>Heavy & High Quality Construction</h3>
-                    <p>Built using high-performance materials for unyielding strength and structural durability.</p>
+                    <h3>Heavy &amp; High Quality Construction</h3>
+                    <p>Built using high-performance materials for strength and structural durability.</p>
                 </div>
-                <img src="hero-building.jpeg" alt="Construction Details" class="about-img">
+                <img src="facade-exterior.webp" width="900" height="792" loading="lazy" decoding="async" alt="Exterior of Blue Zone Residency" class="about-img">
             </div>
-            <div class="about-content">
+            <div class="about-content reveal">
                 <span class="section-mini-tag">Introducing</span>
                 <h2 class="section-heading-serif">Where Every Detail Defines Home.</h2>
-                <p class="section-paragraph-sans">Blue Zone Residency offers an unparalleled residential atmosphere at the center of Noida. Combining pristine connectivity with world-class engineering execution, this property stands as a hallmark of luxury real estate design.</p>
+                <p class="section-paragraph-sans">Blue Zone Residency offers a refined residential address in the heart of Noida. With excellent connectivity and careful construction, it is designed for families who want comfort, quality and convenience in one place.</p>
                 <div class="luxury-counters">
                     <div class="counter-item">
                         <span class="counter-number">100%</span>
@@ -118,119 +187,131 @@
         </div>
     </section>
 
-    <!-- LUXURY AMENITIES -->
+    <!-- AMENITIES -->
     <section class="premium-section dimmed-gradient-bg" id="amenities">
-        <div class="section-title-center">
+        <div class="section-title-center reveal">
             <span class="section-mini-tag">Exquisite Comforts</span>
             <h2 class="section-heading-serif">Luxury Amenities</h2>
         </div>
         <div class="section-container grid-3">
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-warehouse"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-warehouse" aria-hidden="true"></i></div>
                 <h3>BZR Car Parking</h3>
-                <p>Spacious, easily accessible basement parking available for your vehicles.</p>
+                <p>Spacious, easily accessible basement parking for your vehicles.</p>
             </div>
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-elevator"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-elevator" aria-hidden="true"></i></div>
                 <h3>BZR Lift (8 Person)</h3>
-                <p>High-capacity, smooth-transit lift available for your total indoor comfort.</p>
+                <p>A high-capacity, smooth lift for comfortable everyday movement.</p>
             </div>
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-hot-tub-person"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-hot-tub-person" aria-hidden="true"></i></div>
                 <h3>BZR Steam Bath</h3>
-                <p>Relax and rejuvenate your soul with our custom integrated steam room facilities.</p>
+                <p>Relax and recharge in the integrated steam room.</p>
             </div>
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-tree"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-tree" aria-hidden="true"></i></div>
                 <h3>BZR Terrace Garden</h3>
-                <p>Beautifully designed green rooftop spaces to find your complete bliss.</p>
+                <p>A green rooftop space to unwind and enjoy the open sky.</p>
             </div>
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-people-roof"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-people-roof" aria-hidden="true"></i></div>
                 <h3>BZR Club &amp; Washroom</h3>
-                <p>Premium community club spaces and common washroom facilities for residents.</p>
+                <p>Community club space and common washroom facilities for residents.</p>
             </div>
-            <div class="amenity-card">
-                <div class="amenity-icon"><i class="fa-solid fa-fire-extinguisher"></i></div>
+            <div class="amenity-card reveal">
+                <div class="amenity-icon"><i class="fa-solid fa-fire-extinguisher" aria-hidden="true"></i></div>
                 <h3>BZR Fire Fighting System</h3>
-                <p>Fully equipped fire fighting setup with advanced water harvesting architecture.</p>
+                <p>A fully equipped fire fighting setup, along with water harvesting.</p>
             </div>
         </div>
     </section>
 
-    <!-- PROPERTY GALLERY / SHOWCASE -->
+    <!-- GALLERY -->
     <section class="premium-section" id="gallery">
-        <div class="section-title-center">
+        <div class="section-title-center reveal">
             <span class="section-mini-tag">Visual Portfolio</span>
             <h2 class="section-heading-serif">Property Gallery</h2>
         </div>
         <div class="section-container grid-3">
-            <div class="gallery-card">
-                <img src="hero-building.jpeg" alt="Facade View">
-                <div class="gallery-overlay"><h4>Architectural Exterior</h4></div>
-            </div>
-            <div class="gallery-card">
-                <img src="hero-building.jpeg" alt="Entrance View">
-                <div class="gallery-overlay"><h4>Premium Parking Entrance</h4></div>
-            </div>
-            <div class="gallery-card">
-                <img src="hero-building.jpeg" alt="Detail View">
-                <div class="gallery-overlay"><h4>Bespoke Infrastructure</h4></div>
-            </div>
+            <figure class="gallery-card reveal">
+                <img src="facade-exterior.webp" width="900" height="792" loading="lazy" decoding="async" alt="Architectural exterior of Blue Zone Residency">
+                <figcaption class="gallery-overlay"><h3>Architectural Exterior</h3></figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+                <img src="facade-jaali.webp" width="900" height="792" loading="lazy" decoding="async" alt="Detail of the decorative jaali facade panel">
+                <figcaption class="gallery-overlay"><h3>Jaali Facade Detail</h3></figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+                <img src="gal-bedroom.webp" width="900" height="792" loading="lazy" decoding="async" alt="Bedroom with uPVC window, glass-partition bathroom and sliding wardrobe">
+                <figcaption class="gallery-overlay"><h3>Bedroom &amp; Wardrobe</h3></figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+                <img src="gal-kitchen.webp" width="900" height="792" loading="lazy" decoding="async" alt="Modular kitchen with marble-finish backsplash and breakfast counter">
+                <figcaption class="gallery-overlay"><h3>Modular Kitchen</h3></figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+                <img src="gal-bathroom.webp" width="900" height="792" loading="lazy" decoding="async" alt="Bathroom with glass partition, wall-hung toilet and marble-finish tiles">
+                <figcaption class="gallery-overlay"><h3>Glass-Partition Bathroom</h3></figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+                <img src="gal-doors.webp" width="900" height="792" loading="lazy" decoding="async" alt="Carved wooden entrance doors">
+                <figcaption class="gallery-overlay"><h3>Carved Wooden Doors</h3></figcaption>
+            </figure>
         </div>
     </section>
 
-    <!-- LOCATION ADVANTAGES -->
+    <!-- LOCATION -->
     <section class="premium-section dimmed-gradient-bg" id="advantages">
         <div class="section-container grid-2">
-            <div class="location-text">
+            <div class="location-text reveal">
                 <span class="section-mini-tag">Strategic Hub</span>
                 <h2 class="section-heading-serif">Location Advantages</h2>
-                <p class="section-paragraph-sans">Perfectly situated within a well-connected ecosystem in Noida, beside the lush roadside Vedvyaas Park.</p>
+                <p class="section-paragraph-sans">Perfectly situated within a well-connected part of Noida, beside the green roadside Vedvyaas Park.</p>
                 <div class="timeline-advantages">
                     <div class="timeline-node">
-                        <h4>5 Mins Connectivity Nodes</h4>
-                        <p>Just 5 minutes from City Center, Metro Station, Government Hospital, Vedanta Hospital, International School, and the Interstate Bus Stand.</p>
+                        <h3>5 Minutes to Daily Essentials</h3>
+                        <p>Just 5 minutes from City Center, Metro Station, Government Hospital, Vedanta Hospital, International School and the Interstate Bus Stand.</p>
                     </div>
                     <div class="timeline-node">
-                        <h4>Regional Transit Links</h4>
-                        <p>Only 15 minutes from Delhi with 24hrs commercial vehicle availability. Just 40km away from the upcoming Jewar Airport connecting New Delhi, Agra, and Mathura.</p>
+                        <h3>Regional Transit Links</h3>
+                        <p>Only 15 minutes from Delhi with 24-hour commercial vehicle availability. Around 40 km from the upcoming Jewar Airport, connecting New Delhi, Agra and Mathura.</p>
                     </div>
                     <div class="timeline-node">
-                        <h4>Upcoming Megaprojects (30 Mins)</h4>
-                        <p>Strategically positioned 30 minutes away from major modern hubs like Olympic City and Film City.</p>
+                        <h3>Upcoming Hubs (30 Minutes)</h3>
+                        <p>Positioned about 30 minutes from major modern hubs like Olympic City and Film City.</p>
                     </div>
                 </div>
+                <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Blue+Zone+Residency+Noida" target="_blank" rel="noopener noreferrer">Open in Google Maps <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
             </div>
-            <div class="location-visual">
+            <div class="location-visual reveal">
                 <div class="map-mock-card">
-                    <div class="pulse-ring"></div>
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6063467683973!2d77.31174697632155!3d28.550073587413065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d34be7edeb%3A0x2d9f3ff7cf4790bd!2sBlue%20Zone%20Residency!5e0!3m2!1sen!2sin!4v1719260000000!5m2!1sen!2sin" 
-                        class="map-iframe-embed" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <iframe
+                        title="Map showing the location of Blue Zone Residency"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6063467683973!2d77.31174697632155!3d28.550073587413065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d34be7edeb%3A0x2d9f3ff7cf4790bd!2sBlue%20Zone%20Residency!5e0!3m2!1sen!2sin!4v1719260000000!5m2!1sen!2sin"
+                        class="map-iframe-embed"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 7: RESIDENTIAL SUITE CONFIGURATIONS (2 BHK & 3 BHK) -->
+    <!-- PRICING / CONFIGURATIONS -->
     <section class="premium-section" id="pricing">
-        <div class="section-title-center">
+        <div class="section-title-center reveal">
             <span class="section-mini-tag">Bespoke Living</span>
-            <h2 class="section-heading-serif">Residential Suite Configurations</h2>
+            <h2 class="section-heading-serif">Residence Configurations</h2>
         </div>
-        
+
         <div class="section-container grid-2 flats-layout-grid">
-            
-            <!-- 2 BHK CARD -->
-            <div class="flat-configuration-card">
+
+            <!-- 2 BHK -->
+            <article class="flat-configuration-card reveal">
                 <div class="flat-image-wrapper">
                     <span class="flat-badge status-best">Best Value</span>
-                    <img src="hero-building.jpeg" alt="Blue Zone Residency 2 BHK Suite Layout" class="flat-preview-img">
+                    <img src="card-bedroom.webp" width="1180" height="520" loading="lazy" decoding="async" alt="Sample interior: bedroom with glass-partition bathroom and wardrobe" class="flat-preview-img">
                 </div>
                 <div class="flat-meta-header">
                     <div class="flat-title-row">
@@ -240,27 +321,27 @@
                     <div class="flat-divider-line"></div>
                 </div>
                 <ul class="flat-features-list">
-                    <li><span class="bullet-dash">—</span> Vitrified Tiles Premium Flooring</li>
-                    <li><span class="bullet-dash">—</span> Walls finished with Putty, Paneling &amp; OBD</li>
-                    <li><span class="bullet-dash">—</span> Gypsum Tile Grid / POP False Ceiling</li>
-                    <li><span class="bullet-dash">—</span> Wooden Frames with Flush/Skin Doors</li>
-                    <li><span class="bullet-dash">—</span> uPVC Frames with Clear Toughened Glass</li>
-                    <li><span class="bullet-dash">—</span> Matt Finished Tiles for Bathrooms</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Vitrified tiles premium flooring</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Walls finished with putty, paneling &amp; OBD</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Gypsum tile grid / POP false ceiling</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Wooden frames with flush / skin doors</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> uPVC frames with clear toughened glass</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Matt finished tiles for bathrooms</li>
                 </ul>
                 <div class="flat-footer-row">
                     <div class="flat-price-block">
-                        <span class="price-label">Starting From</span>
-                        <h4 class="price-amount">₹60 Lakhs</h4>
+                        <span class="price-label">Starting from</span>
+                        <p class="price-amount">₹60 Lakh*</p>
                     </div>
-                    <a href="#enquire" class="flat-enquire-btn">Enquire <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#enquire" class="flat-enquire-btn" data-property="1). 2BHK (1081 Sq.FT)">Enquire <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
-            </div>
+            </article>
 
-            <!-- 3 BHK CARD -->
-            <div class="flat-configuration-card">
+            <!-- 3 BHK -->
+            <article class="flat-configuration-card reveal">
                 <div class="flat-image-wrapper">
                     <span class="flat-badge status-signature">Signature Residence</span>
-                    <img src="hero-building.jpeg" alt="Blue Zone Residency 3 BHK Suite Layout" class="flat-preview-img">
+                    <img src="card-kitchen.webp" width="1180" height="520" loading="lazy" decoding="async" alt="Sample interior: modular kitchen with marble-finish backsplash" class="flat-preview-img">
                 </div>
                 <div class="flat-meta-header">
                     <div class="flat-title-row">
@@ -270,226 +351,169 @@
                     <div class="flat-divider-line"></div>
                 </div>
                 <ul class="flat-features-list">
-                    <li><span class="bullet-dash">—</span> Expansive Living Area with Putty &amp; OBD</li>
-                    <li><span class="bullet-dash">—</span> Bathroom Fittings: Jaguar, Astral, Hindware</li>
-                    <li><span class="bullet-dash">—</span> Gypsum Tile False Ceiling with Mood Lighting</li>
-                    <li><span class="bullet-dash">—</span> Granite Stone Kitchen Counter &amp; SS Sink</li>
-                    <li><span class="bullet-dash">—</span> WPC Flush Doors with Wire Baskets</li>
-                    <li><span class="bullet-dash">—</span> Balconies with Stainless Steel Railing</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Expansive living area with putty &amp; OBD</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Bathroom fittings: Jaguar, Astral, Hindware</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Gypsum tile false ceiling with mood lighting</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Granite stone kitchen counter &amp; SS sink</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> WPC flush doors with wire baskets</li>
+                    <li><span class="bullet-dash" aria-hidden="true">—</span> Balconies with stainless steel railing</li>
                 </ul>
                 <div class="flat-footer-row">
                     <div class="flat-price-block">
-                        <span class="price-label">Starting From</span>
-                        <h4 class="price-amount">₹1.25 Crore</h4>
+                        <span class="price-label">Starting from</span>
+                        <p class="price-amount">₹1.25 Crore*</p>
                     </div>
-                    <a href="#enquire" class="flat-enquire-btn">Enquire <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#enquire" class="flat-enquire-btn" data-property="3). 3BHK (2250 SQ.FT)">Enquire <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
-            </div>
+            </article>
 
         </div>
+        <p class="section-container price-note price-note-center">*Prices are indicative and subject to change. Please contact us for current pricing and availability. Images are for representation only.</p>
     </section>
 
-    <!-- FAQ SECTION WITH TRUE CORRESPONDING ANSWERS (FIXED PLAIN TEXT) -->
+    <!-- FAQ -->
     <section class="premium-section soft-bg" id="faq">
-        <div class="section-title-center">
-            <span class="section-mini-tag">Clarifications</span>
+        <div class="section-title-center reveal">
+            <span class="section-mini-tag">Good to Know</span>
             <h2 class="section-heading-serif">Frequently Asked Questions</h2>
         </div>
         <div class="section-container accordion-wrapper">
             <div class="accordion-item">
-                <div class="accordion-trigger">
-                    <span>What does the construction quality guarantee look like?</span>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="accordion-content">
-                    <p>Our construction structure is meticulously executed using heavy, premium materials including Vitrified tile flooring, granite stone counters, and branded bathroom fittings (Jaguar/Hindware) ensuring high-end infrastructural durability for generations.</p>
-                </div>
+                <h3 class="accordion-heading"><button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-a1" id="faq-q1"><span>What materials and fittings are used?</span><i class="fa-solid fa-plus" aria-hidden="true"></i></button></h3>
+                <div class="accordion-content" id="faq-a1" role="region" aria-labelledby="faq-q1"><p>Residences use vitrified tile flooring, granite stone kitchen counters with stainless steel sinks, uPVC window frames with toughened glass, and putty with OBD finished walls. The 3 BHK residences feature bathroom fittings from Jaguar, Astral and Hindware.</p></div>
             </div>
             <div class="accordion-item">
-                <div class="accordion-trigger">
-                    <span>Is basement parking assigned automatically to residential units?</span>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="accordion-content">
-                    <p>Yes, Blue Zone Residency offers designated basement car parking mapped explicitly into the master layout blueprint for your comfort and security.</p>
-                </div>
+                <h3 class="accordion-heading"><button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span>Is basement parking included?</span><i class="fa-solid fa-plus" aria-hidden="true"></i></button></h3>
+                <div class="accordion-content" id="faq-a2" role="region" aria-labelledby="faq-q2"><p>Yes. Basement car parking is part of the building layout for residents.</p></div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-heading"><button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span>What are the configurations and starting prices?</span><i class="fa-solid fa-plus" aria-hidden="true"></i></button></h3>
+                <div class="accordion-content" id="faq-a3" role="region" aria-labelledby="faq-q3"><p>2 BHK residences (1081 or 1169 sq ft) start from ₹60 Lakh and 3 BHK residences (2250 sq ft) start from ₹1.25 Crore. Prices are indicative; please contact us for current pricing and availability.</p></div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-heading"><button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span>How well connected is the location?</span><i class="fa-solid fa-plus" aria-hidden="true"></i></button></h3>
+                <div class="accordion-content" id="faq-a4" role="region" aria-labelledby="faq-q4"><p>The City Center, Metro Station, hospitals, an international school and the Interstate Bus Stand are about 5 minutes away. Delhi is about 15 minutes away and the upcoming Jewar Airport is about 40 km away.</p></div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-heading"><button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-a5" id="faq-q5"><span>How do I book a site visit?</span><i class="fa-solid fa-plus" aria-hidden="true"></i></button></h3>
+                <div class="accordion-content" id="faq-a5" role="region" aria-labelledby="faq-q5"><p>Fill in the enquiry form below, message us on WhatsApp or call +91 96504 04888 and our team will confirm a convenient slot.</p></div>
             </div>
         </div>
     </section>
 
-    <!-- SERVERLESS ENQUIRY FORM -->
+    <!-- ENQUIRY FORM -->
     <section class="premium-section" id="enquire">
         <div class="section-container form-grid">
-            <div class="form-copy">
-                <h2 class="section-heading-serif">Secure Your Private<br>Site Tour Portfolio.</h2>
-                <p class="section-paragraph-sans">Arrange an exclusive visual validation walk through our ongoing development channels. Fill out the corporate ledger parameters to securely log your timeline slot directly to our databases.</p>
+            <div class="form-copy reveal">
+                <h2 class="section-heading-serif">Book Your Private<br>Site Visit.</h2>
+                <p class="section-paragraph-sans">Walk through the residences with our team at a time that suits you. Share your details and we will call you to confirm your slot.</p>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+919650404888">+91 96504 04888</a></li>
+                    <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/919650404888" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></li>
+                </ul>
             </div>
-            <div class="form-wrapper">
-                <form id="enquiryForm" class="luxury-form">
+            <div class="form-wrapper reveal">
+                <form id="enquiryForm" class="luxury-form" novalidate>
+                    <!-- spam trap (Web3Forms) -->
+                    <input type="checkbox" name="botcheck" id="botcheck" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" required placeholder="Your name">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" required placeholder="10-digit number">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required autocomplete="tel" inputmode="tel" placeholder="10-digit mobile number" pattern="(\+?91[\-\s]?)?[6-9][0-9]{9}" title="Enter a valid 10-digit Indian mobile number">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" required placeholder="name@domain.com">
+                        <label for="email">Email Address <span class="optional">(optional)</span></label>
+                        <input type="email" id="email" name="email" autocomplete="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="property">Property Selection Tier</label>
-                        <select id="property">
-                            <option value="1). 2BHK (1081 Sq.FT)">1). 2BHK (1081 Sq.FT)</option>
-                            <option value="2). 2BHK (1169 SQ.FT)">2). 2BHK (1169 SQ.FT)</option>
-                            <option value="3). 3BHK (2250 SQ.FT)">3). 3BHK (2250 SQ.FT)</option>
+                        <label for="property">Interested In</label>
+                        <select id="property" name="property">
+                            <option value="1). 2BHK (1081 Sq.FT)">2 BHK (1081 sq ft)</option>
+                            <option value="2). 2BHK (1169 SQ.FT)">2 BHK (1169 sq ft)</option>
+                            <option value="3). 3BHK (2250 SQ.FT)">3 BHK (2250 sq ft)</option>
                         </select>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="date">Appointment Date</label>
-                            <input type="date" id="date" required>
+                            <label for="date">Preferred Date <span class="optional">(optional)</span></label>
+                            <input type="date" id="date" name="date">
                         </div>
                         <div class="form-group">
-                            <label for="time">Preferred Time</label>
-                            <input type="time" id="time" required>
+                            <label for="time">Preferred Time <span class="optional">(optional)</span></label>
+                            <input type="time" id="time" name="time">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message / Custom Requests</label>
-                        <textarea id="message" rows="3" placeholder="Specify any alignment or custom adjustments requested..."></textarea>
+                        <label for="message">Message <span class="optional">(optional)</span></label>
+                        <textarea id="message" name="message" rows="3" placeholder="Anything you would like us to know?"></textarea>
                     </div>
+                    <p class="form-error" id="formError" role="alert" hidden></p>
                     <div class="form-group">
                         <button type="submit" class="submit-btn">
-                            <span class="btn-label">Transmit Request</span>
-                            <div class="btn-loader"></div>
+                            <span class="btn-label">Request Site Visit</span>
+                            <div class="btn-loader" aria-hidden="true"></div>
                         </button>
                     </div>
+                    <p class="form-privacy">We use your details only to contact you about Blue Zone Residency.</p>
                 </form>
             </div>
         </div>
     </section>
+    </main>
 
-    <!-- NOTIFICATION MODALS -->
-    <div class="modal-backdrop" id="successModal">
+    <!-- MODALS -->
+    <div class="modal-backdrop" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle" aria-hidden="true">
         <div class="modal-box">
-            <div class="modal-icon success"><i class="fa-solid fa-circle-check"></i></div>
-            <h3>Request Processed Successfully</h3>
-            <p>Your visit parameters have been securely stored in our serverless system layout registers via modern API fetch vectors. Our corporate consulting team will handle alignment confirmation shortly.</p>
-            <button class="modal-close" onclick="closeModal('successModal')">Acknowledge</button>
+            <div class="modal-icon success"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></div>
+            <h3 id="successTitle">Thank you!</h3>
+            <p>Your request has been received. Our team will call you shortly to confirm your site visit.</p>
+            <button type="button" class="modal-close" data-close="successModal">Close</button>
         </div>
     </div>
 
-    <div class="modal-backdrop" id="errorModal">
+    <div class="modal-backdrop" id="errorModal" role="dialog" aria-modal="true" aria-labelledby="errorTitle" aria-hidden="true">
         <div class="modal-box matching-error">
-            <div class="modal-icon error"><i class="fa-solid fa-circle-xmark"></i></div>
-            <h3>Network Sync Error</h3>
-            <p>We could not map structural alignment records to the destination sheet matrices. Please check input parameters or script connection variables.</p>
-            <button class="modal-close" onclick="closeModal('errorModal')">Retry Matrix</button>
+            <div class="modal-icon error"><i class="fa-solid fa-circle-xmark" aria-hidden="true"></i></div>
+            <h3 id="errorTitle">Something went wrong</h3>
+            <p>We could not send your request. Please try again, or reach us directly on <a href="tel:+919650404888">+91 96504 04888</a> or <a href="https://wa.me/919650404888" target="_blank" rel="noopener noreferrer">WhatsApp</a>.</p>
+            <button type="button" class="modal-close" data-close="errorModal">Try Again</button>
         </div>
     </div>
 
-    <!-- ANCHORED UTILITY DOCK -->
+    <!-- FLOATING CONTACT DOCK -->
     <div class="anchored-utility-dock">
-        <a href="https://wa.me/919650404888" target="_blank" class="dock-node whatsapp-node" aria-label="WhatsApp Interaction Node"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="tel:+919650404888" class="dock-node phone-node" aria-label="Call Matrix Voice Channel"><i class="fa-solid fa-phone"></i></a>
-        <button class="dock-node scroll-top-node" id="scrollTopBtn" aria-label="Anchor Top Strata Trigger"><i class="fa-solid fa-chevron-up"></i></button>
+        <a href="https://wa.me/919650404888" target="_blank" rel="noopener noreferrer" class="dock-node whatsapp-node" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="tel:+919650404888" class="dock-node phone-node" aria-label="Call us"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+        <button type="button" class="dock-node scroll-top-node" id="scrollTopBtn" aria-label="Back to top"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
     </div>
 
-    <!-- MINIMALIST LUXURY FOOTER (BUILDER IDENTITY INTEGRATED) -->
+    <!-- FOOTER -->
     <footer class="luxury-footer">
         <div class="footer-container">
             <div class="footer-left">
                 <h3>BLUE ZONE RESIDENCY</h3>
-                <p class="footer-builder-identity">Builder's Name: Yogesh Kumar Gupta</p>
-                <p>Architectural Perfection. Built with Uncompromising Infrastructure Frameworks.</p>
-                
-                <!-- Brand Aesthetics Social Grid -->
+                <p class="footer-builder-identity">Builder: Yogesh Kumar Gupta</p>
+                <p>Architectural perfection, built with care.</p>
+                <p class="footer-contact"><a href="tel:+919650404888">+91 96504 04888</a></p>
+                <!-- TODO: add the UP RERA registration number here once available, e.g. <p>UP RERA Reg. No.: ...</p> -->
                 <div class="footer-social-grid">
-                    <a href="https://www.instagram.com/perfectengineergroup/" target="_blank" class="social-icon-node" aria-label="Explore Instagram Brand Stream"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://youtube.com/@bluezoneresidency?si=3FLvatVnxMVhQCVz" target="_blank" class="social-icon-node" aria-label="Explore YouTube Architecture Log"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=61571825708251" target="_blank" class="social-icon-node" aria-label="Explore Facebook Media Grid"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/perfectengineergroup/" target="_blank" rel="noopener noreferrer" class="social-icon-node" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com/@bluezoneresidency?si=3FLvatVnxMVhQCVz" target="_blank" rel="noopener noreferrer" class="social-icon-node" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61571825708251" target="_blank" rel="noopener noreferrer" class="social-icon-node" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="footer-right">
-                <p>© 2026 Blue Zone Residency. Handcrafted Portfolio Presentation. Built Production Ready.</p>
+                <p>&copy; <span id="year">2026</span> Blue Zone Residency. All rights reserved.</p>
+                <p class="footer-disclaimer">Images and prices are indicative and subject to change.</p>
             </div>
         </div>
     </footer>
 
-    <!-- INTERACTIVE VECTOR MATRIX CANVAS RENDERING LOOP -->
-    <script>
-        (() => {
-            const canvas = document.getElementById('webgl-blueprint-canvas');
-            if (!canvas) return;
-            const ctx = canvas.getContext('2d');
-            
-            let w = canvas.width = window.innerWidth;
-            let h = canvas.height = window.innerHeight;
-            
-            let pointer = { x: w / 2, y: h / 2, active: false };
-            const points = [];
-            const maxPoints = 35;
-
-            for (let i = 0; i < maxPoints; i++) {
-                points.push({
-                    x: Math.random() * w,
-                    y: Math.random() * h,
-                    vx: (Math.random() - 0.5) * 0.7,
-                    vy: (Math.random() - 0.5) * 0.7,
-                    radius: Math.random() * 1.5 + 1
-                });
-            }
-
-            window.addEventListener('resize', () => {
-                w = canvas.width = window.innerWidth;
-                h = canvas.height = window.innerHeight;
-            });
-
-            window.addEventListener('mousemove', (e) => {
-                pointer.x = e.clientX;
-                pointer.y = e.clientY;
-                pointer.active = true;
-            });
-
-            const drawMatrix = () => {
-                ctx.clearRect(0, 0, w, h);
-                for (let i = 0; i < maxPoints; i++) {
-                    const p = points[i];
-                    p.x += p.vx;
-                    p.y += p.vy;
-
-                    if (p.x < 0 || p.x > w) p.vx *= -1;
-                    if (p.y < 0 || p.y > h) p.vy *= -1;
-
-                    ctx.beginPath();
-                    ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-                    ctx.fillStyle = 'rgba(56, 189, 248, 0.15)';
-                    ctx.fill();
-
-                    if (pointer.active) {
-                        const dx = p.x - pointer.x;
-                        const dy = p.y - pointer.y;
-                        const dist = Math.sqrt(dx * dx + dy * dy);
-
-                        if (dist < 180) {
-                            ctx.beginPath();
-                            ctx.moveTo(p.x, p.y);
-                            ctx.lineTo(pointer.x, pointer.y);
-                            ctx.strokeStyle = `rgba(56, 189, 248, ${0.5 * (1 - dist / 180)})`;
-                            ctx.lineWidth = 2;
-                            ctx.stroke();
-                        }
-                    }
-                }
-                requestAnimationFrame(drawMatrix);
-            };
-            drawMatrix();
-        })();
-    </script>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </body>
 </html>
