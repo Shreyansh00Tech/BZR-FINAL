@@ -149,8 +149,7 @@ html.is-locked, html.is-locked body { overflow: hidden; }
 
 .brand { display: flex; align-items: center; gap: 11px; text-decoration: none; }
 .brand-mark { display: grid; place-items: center; width: 42px; height: 38px; border: 1px solid var(--gold); border-radius: 11px; font: 700 17px/1 var(--f-display); color: var(--gold); letter-spacing: .02em; }
-.brand-name { display: flex; flex-direction: column; font: 700 21px/1 var(--f-display); letter-spacing: .01em; }
-.brand-name small { font: 700 12px/1 var(--f-body); letter-spacing: .2em; color: var(--text); margin-top: 5px; text-shadow: 0 1px 6px rgba(3,6,16,.9); }
+.brand-name { display: flex; flex-direction: column; font: 700 20px/1 var(--f-display); letter-spacing: .01em; white-space: nowrap; text-shadow: 0 1px 8px rgba(3,6,16,.7); }
 .desk-nav { display: none; }
 .top-actions { display: flex; align-items: center; gap: 10px; }
 
