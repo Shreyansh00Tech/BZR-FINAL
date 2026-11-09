@@ -10,7 +10,7 @@
     // Web3Forms public key (safe in the browser). Restrict it to bzr.co.in in the Web3Forms dashboard.
     const ACCESS_KEY = '3eae7367-7a3d-4220-a1f2-fa63970c84bd';
     const PHONE_RE = /^(?:\+?91)?[6-9]\d{9}$/;
-    const SHARE = { title: 'Blue Zone Residency, Noida', text: 'Luxury 2 & 3 BHK homes in Noida from ₹60 Lakh*', url: 'https://www.bzr.co.in/' };
+    const SHARE = { title: 'Blue Zone Residency, Noida', text: 'Luxury 2 & 3/4 BHK homes in Noida from ₹60 Lakh*', url: 'https://www.bzr.co.in/' };
 
     /* ---------- helpers ---------- */
     let locks = 0;
@@ -191,7 +191,7 @@
     }, { passive: true });
     stage.addEventListener('click', e => { if (e.target === stage) closeLb(); });
 
-    /* ---------- 2 BHK / 3 BHK tabs ---------- */
+    /* ---------- 2 BHK / 3/4 BHK tabs ---------- */
     const tabs = $$('.seg-btn');
     const selectTab = t => {
         tabs.forEach(b => {

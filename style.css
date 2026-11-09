@@ -180,7 +180,7 @@ html.is-locked, html.is-locked body { overflow: hidden; }
 @keyframes kenburns { from { transform: scale(1.16); } to { transform: scale(1); } }
 
 .hero-body { position: relative; z-index: 1; margin-top: -112px; padding: 0 var(--gutter) 30px; background: linear-gradient(180deg, rgba(6, 11, 31, 0) 0, var(--bg) 64px); }
-.hero-title { font: 700 clamp(2.5rem, 11.6vw, 4.6rem)/.98 var(--f-display); letter-spacing: -.012em; }
+.hero-title { font: 700 clamp(2.3rem, 10.2vw, 4.1rem)/.98 var(--f-display); letter-spacing: -.012em; }
 .hero-title .ln { display: block; overflow: hidden; padding-bottom: .08em; margin-bottom: -.08em; }
 .hero-title .ln > span { display: block; animation: rise 1s var(--ease) .15s both; }
 .hero-title .ln:nth-child(2) > span { animation-delay: .3s; }
@@ -491,7 +491,7 @@ html.is-locked, html.is-locked body { overflow: hidden; }
     .hero-img { object-position: 50% 30%; }
     .hero-body { width: min(1180px, 100% - 2 * var(--gutter)); margin: 0 auto; padding: 130px 0 90px; background: none; }
     .hero-body > * { max-width: 540px; }
-    .hero-body > .hero-title { max-width: 760px; font-size: clamp(3.6rem, 5.6vw, 5.2rem); }
+    .hero-body > .hero-title { max-width: 760px; font-size: clamp(3.3rem, 5.1vw, 4.8rem); }
     .hero-title .ln { white-space: nowrap; }
     .hero-sub { font-size: 18px; }
     .hero-cta { grid-template-columns: auto auto; justify-content: start; }
