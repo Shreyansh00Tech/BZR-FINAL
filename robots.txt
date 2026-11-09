@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bzr.co.in/sitemap.xml
+Sitemap: https://www.bzr.co.in/sitemap.xml
