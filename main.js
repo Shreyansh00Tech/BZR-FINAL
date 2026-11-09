@@ -303,7 +303,8 @@
     /* ---------- bottom sheet ---------- */
     let sheetTrigger = null;
     let sheetTimer = 0;
-    const openSheet = (property, trigger) => {
+    let autoMsg = '';
+    const openSheet = (property, trigger, message) => {
         clearTimeout(sheetTimer);
         closeMenu(false);
         sheetTrigger = trigger || document.activeElement;
@@ -314,6 +315,9 @@
             const radio = $$('input[name="property"]', form).find(r => r.value === property);
             if (radio) radio.checked = true;
         }
+        const msgBox = form.elements['message'];
+        if (message) { msgBox.value = message; autoMsg = message; }
+        else if (autoMsg && msgBox.value === autoMsg) { msgBox.value = ''; autoMsg = ''; }
         sheet.hidden = false;
         lock();
         void sheet.offsetWidth; // let the browser paint the closed state first
@@ -331,7 +335,7 @@
     };
     document.addEventListener('click', e => {
         const open = e.target.closest('[data-open-sheet]');
-        if (open) { e.preventDefault(); openSheet(open.dataset.property, open); return; }
+        if (open) { e.preventDefault(); openSheet(open.dataset.property, open, open.dataset.message); return; }
         if (e.target.closest('[data-close-sheet]')) closeSheet();
     });
     sheet.addEventListener('keydown', e => trapTab(e, sheet));
